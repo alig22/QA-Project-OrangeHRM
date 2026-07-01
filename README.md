@@ -12,12 +12,6 @@ Ce projet présente un test fonctionnel manuel complet réalisé sur le module L
 ✅ Identifier les anomalies de sécurité et d'ergonomie
 
 
-
-🧪 Cas de Test — Résumé
-
-IDTitreStatutSévéritéTC001Login avec identifiants valides✅ PASSÉCritiqueTC002Mot de passe incorrect✅ PASSÉHauteTC003Champs vides✅ PASSÉHauteTC004Username inexistant✅ PASSÉHauteTC005Username vide + mdp saisi✅ PASSÉHauteTC006Username vide uniquement✅ PASSÉHauteTC007Test sur Firefox✅ PASSÉMoyenneTC008Test mobile responsive✅ PASSÉMoyenneTC009Copier-coller mot de passe⏳ NON EXÉCUTÉBasseTC010Username avec espaces⏳ NON EXÉCUTÉBasse
-
-
 🐛 Bugs Détectés
 
 BUG001 — 🔴 Critique
@@ -41,41 +35,19 @@ Impact : Mauvaise expérience utilisateur
 📊 Métriques d'Exécution
 
 Total cas de test prévus   : 10
-Cas exécutés               : 8
-Cas PASSÉS            ✅   : 8
-Cas ÉCHOUÉS           ❌   : 0
-Cas non exécutés      ⏳   : 2
-Taux de réussite           : 100%
-Bugs détectés              : 2
-  └── Critiques 🔴         : 1
-  └── Moyens    🟡         : 1
+Cas exécutés       : 8
+Cas PASSÉS         : 8
+Cas ÉCHOUÉS        : 0
+Cas non exécutés   : 2
+Taux de réussit    : 100%
+Bugs détectés      : 2
+  └── Critiques    : 1
+  └── Moyens       : 1
 
 
 🛠️ Outils Utilisés
 
 CatégorieOutilsGestion des testsJira · TestRailDocumentationGoogle Sheets · Microsoft ExcelTests UIChrome · Firefox · Chrome DevToolsTests mobileChrome DevTools (mode responsive)Reporting bugsShareX (captures d'écran)MéthodesBlack Box Testing · STLC
-
-
-📁 Structure du Repository
-
-QA-Portfolio-OrangeHRM/
-│
-├── 📊 Projet_QA_OrangeHRM_Complet.xlsx
-│   ├── Feuille 1 : Plan de Test
-│   ├── Feuille 2 : Cas de Test (10 cas)
-│   ├── Feuille 3 : Rapports de Bugs
-│   ├── Feuille 4 : Résumé & Métriques
-│   └── Feuille 5 : Screenshots (8 preuves)
-│
-└── 📖 README.md
-
-
-📸 Aperçu des Screenshots
-
-
-Les screenshots réels de l'exécution des tests sont disponibles dans le fichier Excel — Feuille 5 "Screenshots".
-
-TC001 — Login valideTC003 — Champs videsTC008 — Mobile✅ Dashboard affiché✅ Required affiché✅ Interface adaptée
 
 
 🎓 Compétences Démontrées
